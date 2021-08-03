@@ -75,13 +75,13 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           FloatingActionButton(
             onPressed: _incrementCounter1,
-            tooltip: 'Decrement',
+            tooltip: 'Increment 1',
             child: Icon(Icons.add),
             key: Key('button1'),
           ),
           FloatingActionButton(
             onPressed: _incrementCounter2,
-            tooltip: 'Increment',
+            tooltip: 'Increment 2',
             child: Icon(Icons.add),
             key: Key('button2'),
           ),
